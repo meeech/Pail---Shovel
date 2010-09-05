@@ -1,0 +1,37 @@
+form {
+    color: #aaa;
+}
+
+form input[type=text] {
+    background-color: #FFC;
+    border: 1px dotted #aaa;
+    font-size: 2.2em;
+    margin: 0 10px 0 0;
+    padding: 3px 3px;
+    text-align: right;
+    width: 300px;
+}
+
+form input:focus[type=text] {
+    background-color: #FFA;
+    outline-style:dotted;
+    outline-color: #000;
+    outline-width: 1px;
+}
+
+form input.small {
+    width: 50%;
+}
+
+form input.tiny {
+    width: 50px;
+}
+
+form button {
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+form .large {
+    font-size: 2.2em;
+}

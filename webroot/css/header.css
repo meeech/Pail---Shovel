@@ -1,0 +1,32 @@
+#header {
+    font-family: 'Crimson Text', serif;
+}
+
+#header h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 10em;
+    font-weight: 900;
+    line-height: 0.6em;
+    padding-top: 30px;    
+    letter-spacing: -0.1em;
+    word-spacing: 0;
+}
+
+#header .info {
+    font-size: 1.5em;
+}
+
+#header div.info ul li {
+    margin-top: 7px;
+    list-style: none;
+    text-align: right;
+}
+
+#header a.logo,
+#header a.logo:visited {
+    color: #000;
+    text-decoration: none;
+}
+#header a.logo:hover {
+    color: #333;
+}

@@ -1,0 +1,41 @@
+Pail & Shovel
+=============
+
+My CakePHP Shopify Project. 
+
+It's what I base my new Shopify App projects off of.
+
+Putting it out there maybe it will help someone else.
+
+I'll be adding tools I need when developing. You can install your own copy, or use my hosted copy.
+
+It's set up to be development shop friendly.
+
+[Shovel & Pail](http://shovel-and-pail.amihod.com)
+
+Stuff it already has
+--------------------
+
+* Login someone by shop name
+* Random Product Loader - Load up your store with some random products. For the random word list, it uses vendors/random_words.txt (original source `/usr/share/dict/web2a`). You can change it to whatever you want, should be fine.
+* Decent example of all the charging options.
+
+Usage
+-----
+
+* You will need [CakePHP 1.3](http://www.cakephp.org), and know how to set up an app.
+* Uses PHP ShopifyAPI and DebugKit - You will need those in vendors folder. If you git checkout the project, just do git submodule init, then git submodule update to get them. 
+* use config/shopify.php.default to setup you config/shopify.php
+* setup your config/database.php file. db to setup: `config/schema/shopify_devtools.sql`
+* setup a config/core.php from the config/core.php.default
+* and lastly, don't forget webroot/index.php.
+
+Setting up a Shopify App
+------------------------
+
+* Go set one up, and set the return url to be whatever your homepage is. 
+
+Todo
+----
+
+* Turn the App Controller beforeFilter stuff into Shopify plugin/component, so can componenet=array('Shopify.Shopify).

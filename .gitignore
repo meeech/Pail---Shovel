@@ -1,0 +1,7 @@
+tmp/*
+_local/*
+*.tmproj
+config/core.php
+config/database.php
+config/shopify.php
+webroot/index.php

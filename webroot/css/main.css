@@ -1,0 +1,193 @@
+div#container {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 3.0em;
+    font-family: 'Crimson Text','Times New Roman', serif;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.4em;
+    font-family: 'Crimson Text','Times New Roman', serif;
+    margin: 0;
+    padding: 8px 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Crimson Text','Times New Roman', serif;
+}
+
+.content h4 {
+    margin: 0;
+    font-size: 1.6em;
+    font-family: 'Crimson Text','Times New Roman', serif;
+}
+
+
+p {
+    font-size: 1.5em;
+    font-family: 'Crimson Text','Times New Roman', serif;
+}
+
+div#content {
+    min-height: 300px;
+    overflow:hidden;
+}
+
+div#content div.info {
+    width: 400px;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* Content blocks inside of grid */
+div.yui3-g div.content  {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    -moz-box-shadow: 3px 3px 4px    #999;
+    -webkit-box-shadow: 3px 3px 4px #999;
+    box-shadow: 3px 3px 4px         #999;
+}
+
+div.yui3-g div.content h3 {
+    border-bottom : 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+/*end content block in grid*/
+div.center-column {
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top:20px;
+    width: 500px; 
+}
+
+div.center-column-wide {
+    width: 700px; 
+}
+
+div.center-column h1{
+    text-align: center;
+}
+
+/* Shared styles for p's with icons */
+p.icon {
+    padding-left: 21px;
+    background-position: 0 3px;
+    background-repeat: no-repeat;
+}
+
+h3.icon {
+    padding-left: 21px;
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+h2.icon {
+    padding-left: 21px;
+    background-position: 0 18px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+}
+
+.important {
+    background-image: url('icons/star.png');
+}
+
+.fun {
+    background-image: url('icons/rainbow.png');
+}
+
+.error {
+    background-image: url('icons/error.png');
+}
+
+.information {
+    background-image: url('icons/information.png');
+}
+
+div#content div.info p img{
+    margin-top: 9px;
+}
+    
+div#status-message {
+    width: 100%;
+    background-color: #FF6;
+    border: 1px solid grey;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#running-info {
+    opacity: 0.5;
+}
+
+#running-info div.bd p {
+    font-size: 1em;
+    padding: 2px 10px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+#ajax-indicator {
+    padding-top: 7px;
+    text-align: center;
+}
+
+div#flashMessage,
+div#loginMessage {
+    background: #FF6;
+    border: 1px solid grey;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 3px 5px;
+}
+
+/* Util Classes */
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.hide {
+    display:none;
+}
+.inline-hide {
+    visibility: hidden;
+}
+
+.pad-top {
+    padding-top: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.border5 {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}

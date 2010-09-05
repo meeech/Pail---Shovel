@@ -1,0 +1,21 @@
+#footer {
+    text-align: right;
+    font-family: 'Helvetica', 'Arial',  sans-serif;
+    border-top: 1px solid black;
+}
+
+ul#credits li  {
+    border-left: 1px solid grey;
+    display: inline;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+ul#credits li a img  {
+    vertical-align:-10%;
+}
+
+#footer a, #footer a:visited {
+    color: #800000;
+    text-decoration: none;
+}

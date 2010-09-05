@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: Wed Aug 25 15:36:05 EDT 2010\n"
+"Project-Id-Version: DevTool\n"
+"Last-Translator: Meeech <mitchell.amihod@gmail.com>\n"
+"Language-Team: Plank <mitchell.amihod@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "problem_saving_merchant"
+msgstr "There was a problem saving your Merchant. Please contact support if the problem persists."
+
+msgid "please_login"
+msgstr "Please login via your store."
+

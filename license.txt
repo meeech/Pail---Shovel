@@ -1,0 +1,10 @@
+License
+-------
+
+Haven't picked one yet. 
+
+Pretty much use to make feel free to fork, make derivatives, contribute and so forth. 
+
+Don't just take as is and try to submit as a Shopify App. (Since i'm doing that anyhow :) )
+
+m.
