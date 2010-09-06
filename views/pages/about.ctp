@@ -14,9 +14,9 @@
     <a href="<?= $this->Html->url(array('controller'=>'pages', 'action'=>'display', 'pricing')) ?>">registration options</a> as an example. 
     </p>
     <p class="icon information">
-        This project itself is on github, and is what I
+        This project itself is on <a href="https://github.com/meeech/Pail---Shovel">github</a>, and is what I
         use for random little dev tools. 
-        I also  base new shopify apps off of. 
+        I also base new shopify apps off of. 
         You can install a copy on your server to use, or use this one.
     </p>
     <p class="icon information">
