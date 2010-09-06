@@ -45,4 +45,4 @@ Todo
 ----
 
 * Turn the App Controller beforeFilter stuff into Shopify plugin/component, so can componenet=array('Shopify.Shopify).
-* Get blank tmp folders setup
+* Get blank tmp folders setup in repo.
